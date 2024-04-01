@@ -1,0 +1,6 @@
+pytest
+requests
+inquirer
+Pillow
+mock
+tinydb
