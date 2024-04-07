@@ -12,6 +12,7 @@
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
     <InterpreterId>Global|PythonCore|3.11</InterpreterId>
+    <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
   <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
@@ -29,6 +30,8 @@
     <Content Include="Examples\1711936831.jpg" />
     <Content Include="LICENSE.txt" />
     <Content Include="requirements.txt" />
+    <Content Include="web\image.html" />
+    <Content Include="web\index.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="httpclient.py" />
@@ -40,6 +43,11 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Examples" />
+    <Folder Include="web\" />
+    <Folder Include="web\css\" />
+    <Folder Include="web\js\" />
+    <Folder Include="web\img\" />
+    <Folder Include="web\lib\" />
   </ItemGroup>
   <ItemGroup>
     <InterpreterReference Include="Global|PythonCore|3.11" />

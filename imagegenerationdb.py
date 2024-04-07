@@ -186,7 +186,10 @@ class ImageGenerationDb:
             {self.Entity.COLUMN_NAME: "realism"},
             {self.Entity.COLUMN_NAME: "skeuomorphic design"},
             {self.Entity.COLUMN_NAME: "stencil art"},
-            {self.Entity.COLUMN_NAME: "surrealism"}
+            {self.Entity.COLUMN_NAME: "surrealism"},
+            {self.Entity.COLUMN_NAME: "35mm film"},
+            {self.Entity.COLUMN_NAME: "charcoal"},
+            {self.Entity.COLUMN_NAME: "oil painting"},
         ]
         self.image_style.insert_multiple(image_style)
 
@@ -239,7 +242,7 @@ class ImageGenerationDb:
         lighting = [
             {self.Entity.COLUMN_NAME: "ambient"},
             {self.Entity.COLUMN_NAME: "natural"},
-            {self.Entity.COLUMN_NAME: "subtile"},
+            {self.Entity.COLUMN_NAME: "subtle"},
             {self.Entity.COLUMN_NAME: "dramatic"}
         ]
         self.image_lighting.insert_multiple(lighting)

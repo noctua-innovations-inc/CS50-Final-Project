@@ -34,25 +34,105 @@ Any "pip"-installable libraries that the project requires, must be listed, one p
 root folder of the project.
 
 """
-
-
 from imagegeneration import ImageGeneration
+from imagegenerationdb import ImageGenerationDb
 from openai_image_dto import OpenAiImageDto
 
+from urllib.parse import parse_qs
 
+import eel
+
+
+db =  ImageGenerationDb()
 image_generation = ImageGeneration()
 
 
+@eel.expose
+def submit_form(data):
+    print(data)
+
+
+@eel.expose
+def say_hello_py(x):
+    print('Hello from %s' % x)
+
+
+#region Selection Lists
+
+@eel.expose
+def get_specialization():
+    return [record[ImageGenerationDb.Entity.COLUMN_NAME] for record in  db.specialization]
+
+@eel.expose
+def get_image_lighting():
+    return [record[ImageGenerationDb.Entity.COLUMN_NAME] for record in  db.image_lighting]
+
+@eel.expose
+def get_image_contrast():
+    return [record[ImageGenerationDb.Entity.COLUMN_NAME] for record in  db.image_contrast]
+
+@eel.expose
+def get_image_composition_type():
+    return [record[ImageGenerationDb.Entity.COLUMN_NAME] for record in  db.image_composition_type]
+
+@eel.expose
+def get_image_style():
+    return [record[ImageGenerationDb.Entity.COLUMN_NAME] for record in  db.image_style]
+
+@eel.expose
+def get_image_color():
+    return [record[ImageGenerationDb.Entity.COLUMN_NAME] for record in  db.image_color_scheme]
+
+@eel.expose
+def get_image_aesthetic_pattern():
+    return [record[ImageGenerationDb.Entity.COLUMN_NAME] for record in  db.image_aesthetic_pattern]
+
+@eel.expose
+def get_image_depth_of_field():
+    return [record[ImageGenerationDb.Entity.COLUMN_NAME] for record in  db.image_depth_of_field]
+
+#endregion
+
+
+@eel.expose                         # Expose this function to Javascript
+def handleinput(form_data):
+    dataset = parse_qs(form_data)
+    for i, (k, v)  in enumerate(dataset.items()):
+        dataset[k] = v[0]
+
+    image_prompt = build_image_prompt(dataset)
+    generated_image = image_generation.request_image_generation(image_prompt, dataset)
+    write_image_to_disk(generated_image)
+
+     
+    eel.show(f"image.html?image={generated_image.created}&height=1024&width=1792");
+
+
+@eel.expose
+def handledelete(query_string):
+    dataset = parse_qs(query_string)
+    None
+
+
 def main():
-    print("Welcome to the Image Genie!")
+    eel.init('web')
 
-    human_image_inquiry = build_image_inquiry()
-    image_definition = image_generation.execute_image_inquiry(human_image_inquiry)
+    say_hello_py('Python World!')
+    eel.say_hello_js('Python World!')   # Call a Javascript function
 
-    if image_definition[ImageGeneration.OpenApi.SUBMIT]:
-        image_prompt = build_image_prompt(image_definition)
-        generated_image = image_generation.request_image_generation(image_prompt, image_definition)
-        write_image_to_disk(generated_image)
+    eel.start('index.html')
+
+    
+    # print("Welcome to the Image Genie!")
+
+    # human_image_inquiry = build_image_inquiry()
+    # image_definition = image_generation.execute_image_inquiry(human_image_inquiry)
+
+    # if image_definition[ImageGeneration.OpenApi.SUBMIT]:
+    #     image_prompt = build_image_prompt(image_definition)
+    #     generated_image = image_generation.request_image_generation(image_prompt, image_definition)
+    #     write_image_to_disk(generated_image)
+    None
 
 
 # Function exists solely for project requirement compliance.
@@ -67,8 +147,10 @@ def build_image_prompt(image_definition: dict) -> str:
 
 # Function exists solely for project requirement compliance.
 def write_image_to_disk(image: OpenAiImageDto) -> None:
-    image.save(f"{image.created}.jpg")
+    image.save(f"web/img/{image.created}.jpg")
+
 
 
 if __name__ == "__main__":
     main()
+

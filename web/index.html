@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Image Genie</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="/eel.js"></script>
+    <script type="text/javascript">
+        eel.expose(say_hello_js); // Expose this function to Python
+        function say_hello_js(x) {
+            console.log("Hello from " + x);
+        }
+
+        say_hello_js("Javascript World!");
+        eel.say_hello_py("Javascript World!"); // Call a Python function
+    </script>
+    <script type="text/javascript">
+        $(function () {
+            $("#btn").click(function () {
+                this.setAttribute('disable', true);
+                eel.handleinput($("form").serialize());
+                this.setAttribute('disable', false);
+            });
+        })
+    </script>
+</head>
+
+<body>
+    <div class="container-fluid" style="margin-top:15px;">
+        <div class="card">
+            <div class="card-header">
+                <h2>Image Definition</h2>
+            </div>
+            <form class="card-body form-container">
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="card bg-primary mx-auto">
+                            <div class="card-body">
+                                <h5 class="card-title">Artistic Attributes</h5>
+
+                                <div class="form-group">
+                                    <label for="specialization_id">Design Perspective:</label>
+                                    <select class="form-control" id="specialization_id" name="specialization"></select>
+                                    <!-- <small class="form-text text-muted">Some text</small> -->
+                                </div>
+                                <div class="form-group">
+                                    <label for="image_style_id">Imagery Style:</label>
+                                    <select class="form-control" id="image_style_id" name="image_style"></select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="image_composition_type_id">Composition Type:</label>
+                                    <select class="form-control" id="image_composition_type_id" name="image_composition_type"></select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="image_aesthetic_pattern_id">Aesthetic Pattern:</label>
+                                    <select class="form-control" id="image_aesthetic_pattern_id" name="image_aesthetic_pattern"></select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="color_style_id">Color Enhancement:</label>
+                                    <select class="form-control" id="color_style_id" name="style">
+                                        <option value="vivid">Vivid</option>
+                                        <option value="natural">Natural</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="image_color_id">Color Scheme:</label>
+                                    <select class="form-control" id="image_color_id" name="image_color_scheme"></select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card bg-primary mx-auto">
+                            <div class="card-body">
+                                <h5 class="card-title">Technical Attributes</h5>
+                                <div class="form-group">
+                                    <label for="image_size_id">Quantity:</label>
+                                    <input class="form-control" type="number" id="quantity_id" name="quantity" min="1" max="5" value="1" readonly disabled />
+                                </div>
+                                <div class="form-group">
+                                    <label for="image_size_id">Resolution:</label>
+                                    <select class="form-control" id="image_size_id" name="size">
+                                        <option value="1024x1024">1024x1024</option>
+                                        <option value="1792x1024">1792x1024</option>
+                                        <option value="1024x1792">1024x1792</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="image_quality_id">Definition:</label>
+                                    <select class="form-control" id="image_quality_id" name="quality">
+                                        <option value="hd">High</option>
+                                        <option value="standard">Standard</option>
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="image_lighting_id">Lighting:</label>
+                                    <select class="form-control" id="image_lighting_id" name="image_lighting"></select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="image_contrast_id">Contrast:</label>
+                                    <select class="form-control" id="image_contrast_id" name="image_contrast"></select>
+                                </div>
+                                <div class="form-group">
+                                    <label for="image_depth_of_field_id">Depth of Field:</label>
+                                    <select class="form-control" id="image_depth_of_field_id" name="image_depth_of_field"></select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <br />
+                <div class="row col-md-12">
+                    <label for="prompt_id" class="w-100">What image is to be generated?</label>
+                    <textarea class="form-control" id="prompt_id" name="prompt" placeholder="Prompt?" rows="3"></textarea>
+
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="prompt_override_id" name="prompt_override" value="yes" />
+                        <label class="form-check-label" for="prompt_override_id">Prevent DALL-E from revising the prompt</label>
+                    </div>
+                </div>
+
+                <br />
+                <div class="row col-md-12">
+                    <button id="btn" type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        async function populateDropdown() {
+            var data = await eel.get_specialization()();
+            databind(data, "specialization_id")
+
+            data = await eel.get_image_lighting()();
+            databind(data, "image_lighting_id")
+
+            data = await eel.get_image_contrast()();
+            databind(data, "image_contrast_id")
+
+            data = await eel.get_image_composition_type()();
+            databind(data, "image_composition_type_id")
+
+            data = await eel.get_image_style()();
+            databind(data, "image_style_id")
+
+            data = await eel.get_image_color()();
+            databind(data, "image_color_id")
+
+            data = await eel.get_image_aesthetic_pattern()();
+            databind(data, "image_aesthetic_pattern_id")
+
+            data = await eel.get_image_depth_of_field()();
+            databind(data, "image_depth_of_field_id")
+        }
+
+        function databind(data, id) {
+            const dropdown = document.getElementById(id);
+
+            data.forEach(item => {
+                const option = document.createElement("option");
+                option.text = item;
+                option.value = item;
+                dropdown.appendChild(option);
+            });
+        }
+
+        populateDropdown();
+        $("#prompt_id")[0].focus();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -15,7 +15,7 @@ class ImageGeneration:
     USER_AGENT = "ImgGen/1.0"
 
     class OpenApi:
-        KEY = "<put-your-open-ai-key-here>"
+        KEY = "<<key-goes-here>>"
         URL = "https://api.openai.com/v1/images/generations"
         MODEL = "dall-e-3"
         SUBMIT = "correct"
@@ -193,6 +193,9 @@ class ImageGeneration:
         lighting = f"while the lighting is {dataset[self._db.Entity.TABLE_IMAGE_LIGHTING]}"
         contrast = f"the image has a {dataset[self._db.Entity.TABLE_IMAGE_CONTRAST]} contrast"
 
+        if ImageGeneration.OpenApi.PROMPT_OVERRIDE not in dataset:
+            dataset[ImageGeneration.OpenApi.PROMPT_OVERRIDE] = "no"
+            
         prompt_preamble = ("", ImageGeneration.OpenApi.PROMPT_OVERRIDE_TEXT)[
             dataset[ImageGeneration.OpenApi.PROMPT_OVERRIDE]
             == ImageGeneration.OpenApi.PROMPT_OVERRIDE_INDICATOR
