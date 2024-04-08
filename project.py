@@ -40,21 +40,12 @@ from openai_image_dto import OpenAiImageDto
 
 from urllib.parse import parse_qs
 
+import os
 import eel
 
 
 db =  ImageGenerationDb()
 image_generation = ImageGeneration()
-
-
-@eel.expose
-def submit_form(data):
-    print(data)
-
-
-@eel.expose
-def say_hello_py(x):
-    print('Hello from %s' % x)
 
 
 #region Selection Lists
@@ -94,33 +85,48 @@ def get_image_depth_of_field():
 #endregion
 
 
+def query_string_to_dict(query_string: str) -> dict:
+    collection = parse_qs(query_string)
+    for i, (k, v)  in enumerate(collection.items()):
+        collection[k] = v[0]       
+    return collection
+
+def string_to_dimensions(value: str) -> object:
+    parts = value.split("x")
+    return { "width": int(parts[0]), "height": int(parts[1]) }
+
+
 @eel.expose                         # Expose this function to Javascript
-def handleinput(form_data):
-    dataset = parse_qs(form_data)
-    for i, (k, v)  in enumerate(dataset.items()):
-        dataset[k] = v[0]
-
+def form_submit_handler(form_data):
+    dataset = query_string_to_dict(form_data)
     image_prompt = build_image_prompt(dataset)
-    generated_image = image_generation.request_image_generation(image_prompt, dataset)
-    write_image_to_disk(generated_image)
+    try:
+        generated_image = image_generation.request_image_generation(image_prompt, dataset)
+        write_image_to_disk(generated_image)
 
-     
-    eel.show(f"image.html?image={generated_image.created}&height=1024&width=1792");
+        dimensions = string_to_dimensions(dataset[ImageGeneration.OpenApi.IMAGE_SIZE])
+        eel.show(f"image.html?image={generated_image.created}&height={dimensions['height']}&width={dimensions['width']}")
+    except Exception as e:
+        eel.image_generation_error_notification(str(e))
+        
+    eel.image_generation_completion_notification()
+
 
 
 @eel.expose
-def handledelete(query_string):
-    dataset = parse_qs(query_string)
-    None
+def delete_image_handler(query_string):
+    try:
+        id = query_string_to_dict(query_string)["image"]
+        delete_image_from_disk(id)
+        eel.image_deletion_completion_notification()
+    except Exception as e:
+        eel.image_generation_error_notification(str(e))
 
 
 def main():
     eel.init('web')
-
-    say_hello_py('Python World!')
-    eel.say_hello_js('Python World!')   # Call a Javascript function
-
-    eel.start('index.html')
+    eel.start("image.html?image=1712535188&height=1024&width=1024")
+    #eel.start('index.html')
 
     
     # print("Welcome to the Image Genie!")
@@ -149,6 +155,11 @@ def build_image_prompt(image_definition: dict) -> str:
 def write_image_to_disk(image: OpenAiImageDto) -> None:
     image.save(f"web/img/{image.created}.jpg")
 
+
+def delete_image_from_disk(id: str) -> None:
+    file = f"web/img/{id}.jpg"
+    if os.path.exists(file):
+        os.remove(file)
 
 
 if __name__ == "__main__":
