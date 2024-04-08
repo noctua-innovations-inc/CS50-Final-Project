@@ -125,8 +125,7 @@ def delete_image_handler(query_string):
 
 def main():
     eel.init('web')
-    eel.start("image.html?image=1712535188&height=1024&width=1024")
-    #eel.start('index.html')
+    eel.start('index.html')
 
     
     # print("Welcome to the Image Genie!")
