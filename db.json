@@ -1,0 +1,256 @@
+{
+  "specialization": {
+    "1": {
+      "name": "Digital Artist"
+    },
+    "2": {
+      "name": "Illustrator"
+    },
+    "3": {
+      "name": "Animator"
+    },
+    "4": {
+      "name": "Calligrapher"
+    },
+    "5": {
+      "name": "Cartoonist"
+    },
+    "6": {
+      "name": "Graphic Designer"
+    },
+    "7": {
+      "name": "Native Artist"
+    },
+    "8": {
+      "name": "Painter"
+    },
+    "9": {
+      "name": "Photographer"
+    },
+    "10": {
+      "name": "Street Artist"
+    }
+  },
+  "image_composition_type": {
+    "1": {
+      "name": "illustration"
+    },
+    "2": {
+      "name": "avatar"
+    },
+    "3": {
+      "name": "cinematic"
+    },
+    "4": {
+      "name": "diagram"
+    },
+    "5": {
+      "name": "icon"
+    },
+    "6": {
+      "name": "logo"
+    },
+    "7": {
+      "name": "painting"
+    },
+    "8": {
+      "name": "photo"
+    },
+    "9": {
+      "name": "picture"
+    },
+    "10": {
+      "name": "poster"
+    }
+  },
+  "image_style": {
+    "1": {
+      "name": "digital art"
+    },
+    "2": {
+      "name": "aboriginal-styled"
+    },
+    "3": {
+      "name": "abstract"
+    },
+    "4": {
+      "name": "anime-styled"
+    },
+    "5": {
+      "name": "comic-styled"
+    },
+    "6": {
+      "name": "expressionism"
+    },
+    "7": {
+      "name": "flat design"
+    },
+    "8": {
+      "name": "glyph design"
+    },
+    "9": {
+      "name": "masterpiece"
+    },
+    "10": {
+      "name": "muralism"
+    },
+    "11": {
+      "name": "photo-realistic"
+    },
+    "12": {
+      "name": "pointillism"
+    },
+    "13": {
+      "name": "pop art"
+    },
+    "14": {
+      "name": "realism"
+    },
+    "15": {
+      "name": "skeuomorphic design"
+    },
+    "16": {
+      "name": "stencil art"
+    },
+    "17": {
+      "name": "surrealism"
+    },
+    "18": {
+      "name": "35mm film"
+    },
+    "19": {
+      "name": "charcoal"
+    },
+    "20": {
+      "name": "oil painting"
+    }
+  },
+  "image_color_scheme": {
+    "1": {
+      "name": "vibrant"
+    },
+    "2": {
+      "name": "realistic"
+    },
+    "3": {
+      "name": "monochromatic"
+    },
+    "4": {
+      "name": "duotone"
+    },
+    "5": {
+      "name": "neutral"
+    },
+    "6": {
+      "name": "subdued"
+    },
+    "7": {
+      "name": "analogous"
+    },
+    "8": {
+      "name": "complementary"
+    },
+    "9": {
+      "name": "split-complementary"
+    },
+    "10": {
+      "name": "triadic"
+    },
+    "11": {
+      "name": "gradient"
+    },
+    "12": {
+      "name": "warm"
+    },
+    "13": {
+      "name": "cool"
+    },
+    "14": {
+      "name": "pastel"
+    }
+  },
+  "image_aesthetic_pattern": {
+    "1": {
+      "name": "current"
+    },
+    "2": {
+      "name": "anime-inspired"
+    },
+    "3": {
+      "name": "futuristic"
+    },
+    "4": {
+      "name": "geometric"
+    },
+    "5": {
+      "name": "grunge"
+    },
+    "6": {
+      "name": "minimalist"
+    },
+    "7": {
+      "name": "modern"
+    },
+    "8": {
+      "name": "retro"
+    },
+    "9": {
+      "name": "vintage"
+    }
+  },
+  "image_depth_of_field": {
+    "1": {
+      "name": "subject isolation technique"
+    },
+    "2": {
+      "name": "hyperfocal distance"
+    },
+    "3": {
+      "name": "depth compression"
+    },
+    "4": {
+      "name": "macro focus"
+    },
+    "5": {
+      "name": "background blur"
+    },
+    "6": {
+      "name": "foreground blur"
+    },
+    "7": {
+      "name": "motion blur"
+    }
+  },
+  "image_lighting": {
+    "1": {
+      "name": "ambient"
+    },
+    "2": {
+      "name": "natural"
+    },
+    "3": {
+      "name": "subtle"
+    },
+    "4": {
+      "name": "dramatic"
+    }
+  },
+  "image_contrast": {
+    "1": {
+      "name": "normal"
+    },
+    "2": {
+      "name": "high"
+    },
+    "3": {
+      "name": "low"
+    }
+  },
+  "event_log": {
+    "18": {
+      "prompt": "Specializing as a Digital Artist.  Create a illustration, with a digital art imagery style, and a vibrant color scheme.  Use a current aesthetic style.  Depth of field is to be subject isolation technique.  Lighting is ambient.  The image is to have normal contrast.  Subject: Young lady Apsara, dancing under the moonlight.",
+      "revised_prompt": "Please create a digital illustration featuring a vibrant color scheme. Use a modern aesthetic style with a depth of field technique to isolate the subject; the lighting should be ambient, creating a normal contrast between the subject and the background. The subject of this illustration is a young South Asian lady performing an Apsara dance under the soft glow of moonlight, her graceful movements captured in vivid hues.",
+      "created": 1712679601
+    }
+  }
+}

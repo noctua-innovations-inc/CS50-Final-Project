@@ -1,6 +1,8 @@
 pytest
 requests
-inquirer
+types-requests
 Pillow
 mock
 tinydb
+eel
+eel[jinja2]

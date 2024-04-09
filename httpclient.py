@@ -6,4 +6,3 @@ class HttpClient:
 
     class MediaType:
         JSON = "application/json"
-
