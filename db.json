@@ -1,1 +1,256 @@
-{"specialization": {"1": {"name": "Digital Artist"}, "2": {"name": "Illustrator"}, "3": {"name": "Animator"}, "4": {"name": "Calligrapher"}, "5": {"name": "Cartoonist"}, "6": {"name": "Graphic Designer"}, "7": {"name": "Native Artist"}, "8": {"name": "Painter"}, "9": {"name": "Photographer"}, "10": {"name": "Street Artist"}}, "image_composition_type": {"1": {"name": "illustration"}, "2": {"name": "avatar"}, "3": {"name": "cinematic"}, "4": {"name": "diagram"}, "5": {"name": "icon"}, "6": {"name": "logo"}, "7": {"name": "painting"}, "8": {"name": "photo"}, "9": {"name": "picture"}, "10": {"name": "poster"}}, "image_style": {"1": {"name": "digital art"}, "2": {"name": "aboriginal-styled"}, "3": {"name": "abstract"}, "4": {"name": "anime-styled"}, "5": {"name": "comic-styled"}, "6": {"name": "expressionism"}, "7": {"name": "flat design"}, "8": {"name": "glyph design"}, "9": {"name": "masterpiece"}, "10": {"name": "muralism"}, "11": {"name": "photo-realistic"}, "12": {"name": "pointillism"}, "13": {"name": "pop art"}, "14": {"name": "realism"}, "15": {"name": "skeuomorphic design"}, "16": {"name": "stencil art"}, "17": {"name": "surrealistm"}}, "image_color_scheme": {"1": {"name": "vibrant"}, "2": {"name": "realistic"}, "3": {"name": "monochromatic"}, "4": {"name": "duotone"}, "5": {"name": "neutral"}, "6": {"name": "subdued"}, "7": {"name": "analogous"}, "8": {"name": "complementary"}, "9": {"name": "split-complementary"}, "10": {"name": "triadic"}, "11": {"name": "gradient"}, "12": {"name": "warm"}, "13": {"name": "cool"}, "14": {"name": "pastel"}}, "image_aesthetic_pattern": {"1": {"name": "current"}, "2": {"name": "anime-inspired"}, "3": {"name": "futuristic"}, "4": {"name": "geometric"}, "5": {"name": "grunge"}, "6": {"name": "minimalist"}, "7": {"name": "modern"}, "8": {"name": "retro"}, "9": {"name": "vintage"}}, "image_depth_of_field": {"1": {"name": "subject isolation technique"}, "2": {"name": "hyperfocal distance"}, "3": {"name": "depth compression"}, "4": {"name": "macro focus"}, "5": {"name": "background blur"}, "6": {"name": "foreground blur"}, "7": {"name": "motion blur"}}, "image_lighting": {"1": {"name": "ambient"}, "2": {"name": "natural"}, "3": {"name": "subtile"}, "4": {"name": "dramatic"}}, "image_contrast": {"1": {"name": "normal"}, "2": {"name": "high"}, "3": {"name": "low"}}, "event_log": {"1": {"prompt": "Specializing as a Digital Artist, use a picture composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a high contrast: Apsara dancing in the moonlight", "revised_prompt": "In a composition suited for digital art, create an image exhibiting a vibrant color scheme and a current aesthetic style. Concentrate on an Apsara, a traditional South Asian female dancer, dancing gracefully under the soft glow of the moonlight. Use subject isolation technique to bring depth to the image, emphasizing the dancer amidst a surrounding milieu. The scene should be bathed in ambient lighting, giving the image an ethereal, serene ambience. The contrast level of the picture is high, bringing out the details and contours of the dancer and her surrounding environment.", "created": 1711935452}, "2": {"prompt": "Specializing as a Illustrator, use a illustration composition type, with masterpiece imagery style, use a realistic color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is natural, the image has a high contrast: Apsara dancing in the moonlight", "revised_prompt": "Create an illustration using a composition type favored by old masters, applied to the scene of an Apsara dancing in the moonlight. The illustration should adhere to a realistic color scheme reflecting the current aesthetic style. Use subject isolation to create depth of field, employing the influence of natural lighting. The scene should be painted with high contrast, emphasizing the dance of the Apsara under the moon\u2019s glow.", "created": 1711935584}, "3": {"prompt": "Specializing as a Photographer, use a photo composition type, with photo-realistic imagery style, use a realistic color scheme. use a vintage aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a high contrast: Apsara dancing in the moonlight", "revised_prompt": "Capture a photograph exhibiting a vintage aesthetic with photo-realistic elements. Visualize an Apsara, a celestial dancer of Southeast Asian mythology, dancing gracefully. This scene is illuminated by gentle ambient moonlight, creating a serene and mystical environment. The dancer is isolated to spotlight her elegant movement and give depth to the image, all highlighted by a realistic color palette. To accentuate the vintage quality, incorporate a high contrast between light and dark tones.", "created": 1711935730}, "4": {"prompt": "Specializing as a Cartoonist, use a illustration composition type, with comic-styled imagery style, use a vibrant color scheme. use a retro aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a high contrast: Apsara dancing in the moonlight", "revised_prompt": "Depict a scene with comic-styled, retro, and vibrant aesthetics, utilizing an illustration composition approach. The primary subject is an Apsara, a classical South Asian dancer, performing vibrant and lively movements under the serene moonlight. Make use of the subject isolation technique, placing her prominently in the frame against a softly focused background, capturing her every detail in high contrast. The ambient lighting should softly illuminate the scene, while the moonlight casts brilliant highlights and deep shadows, enhancing the depth of the image. The image should encapsulate the whimsical nature of a dance in the moonlight.", "created": 1711935878}, "5": {"prompt": "Specializing as a Illustrator, use a icon composition type, with flat design imagery style, use a triadic color scheme. use a minimalist aesthetic style, macro focus is used for the depth of field, while the lighting is ambient, the image has a high contrast: Apsara dancing in the moonlight", "revised_prompt": "Create an illustration in a flat design imagery style, adhering to a minimalist aesthetic with a triadic color scheme. The focus should be on a macro view of an Apsara dancer, who embodies grace and beauty, dancing under the soft ambient moonlight. The high contrast in the image should emphasize the dancer in the serene moonlit scenario, creating an ethereal, captivating scene.", "created": 1711936035}, "6": {"prompt": "Specializing as a Graphic Designer, use a logo composition type, with glyph design imagery style, use a duotone color scheme. use a minimalist aesthetic style, macro focus is used for the depth of field, while the lighting is ambient, the image has a high contrast: Apsara dancing in the moonlight", "revised_prompt": "Create a minimalist, duotone and high contrast image using the aesthetic style of glyph design. The scene is of an Apsara dancer, South Asian in descent, dancing under the moonlight with ambient lighting. A macro focus is used to highlight the depth of field. This image should capture the delicate essence of an Apsara's dance, as well as achieve the balance in composition typical of graphic design logos.", "created": 1711936191}, "7": {"prompt": "Specializing as a Street Artist, use a painting composition type, with pop art imagery style, use a realistic color scheme. use a modern aesthetic style, hyperfocal distance is used for the depth of field, while the lighting is ambient, the image has a high contrast: Apsara dancing in the moonlight", "revised_prompt": "Paint a composition showcasing an Apsara, a traditional Asian dancer, performing gracefully under the light of the moon. The scene is rendered with the hyperfocal depth of field, inviting the viewer to focus on the intricate movements and detailing of her attire. The style should borrow from the common themes of pop art, but merge this with a contemporary aesthetic, making use of an expressive and realistic color palette. The lighting should be primarily ambient, casting soft shadows and enhancing the rich colors. The contrast in the image should be high, lending the piece a dynamic and dramatic quality that moves the gaze across the canvas.", "created": 1711936337}, "8": {"prompt": "Specializing as a Illustrator, use a illustration composition type, with pointillism imagery style, use a realistic color scheme. use a retro aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a high contrast: Apsara dancing in the moonlight", "revised_prompt": "Create an illustration using a pointillism technique to depict a scene of an Apsara, a nymph from South Asian mythology, gracefully dancing in the moonlight. Use a realistic color scheme, ensuring that the image carries a nostalgic retro aesthetic. For depth, the Apsara should be isolated as the main subject in the composition, and the surrounding scene is softened gently. The moonlight is the only source of light, providing ambient illumination. The whole image should have high contrast, emphasizing the dynamics between light and shadow. The artwork should evoke a calm, serene, and mesmerizing mood.", "created": 1711936479}, "9": {"prompt": "Specializing as a Street Artist, use a painting composition type, with pop art imagery style, use a vibrant color scheme. use a grunge aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a high contrast: Apsara dancing in the moonlight", "revised_prompt": "Create an image of an Apsara, a traditional South Asian dancer, gracefully performing under the scenic moonlight. The artwork should be influenced by street art and have a painting composition type applied. Incorporate a pop art imagery style characterized by bold and vibrant colors. Make use of high contrast as well as subject isolation technique for depth of field. Ensure the lighting is ambient, casting enough brightness to illuminate the dancer against the darkness. Lastly, blend in a grunge aesthetic style to add a textured and slightly deteriorated look to the overall painting.", "created": 1711936643}, "10": {"prompt": "Specializing as a Street Artist, use a painting composition type, with pop art imagery style, use a vibrant color scheme. use a current aesthetic style, motion blur is used for the depth of field, while the lighting is natural, the image has a high contrast: Apsara dancing in the moonlight", "revised_prompt": "Creating an urban mural represents an Apsara, a sacred feminine spirit from Hindu and Buddhist mythology, dancing elegantly beneath the radiant moonlight. The composition is rendered in a contemporary pop art style, infusing vibrant and high-contrast colors. In this wide-angled visual, we can capture the inherent beauty and strength of our figure, her movements streaked with motion blur, adding depth and dynamic energy to the image. The moon casts a natural light source, thus, bestowing a glowing, unearthly quality to the entire scene.", "created": 1711936831}, "11": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is dramatic, the image has a high contrast: Butterfly on a sunflower.", "revised_prompt": "Create a highly detailed digital art illustration featuring a vibrant and colorful scene. Center the image composition around a butterfly situated on a sunflower, using a technique that isolates the subject to create a depth of field. The lighting within the scene should be dramatic and the contrast should be high, emphasizing the vivid colors of the butterfly and the sunflower. Overall, the aesthetic style should be modern yet timeless, capturing the beauty of this intricate interaction between the butterfly and the sunflower.", "created": 1712522158}, "12": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Butterfly on a sunflower.", "revised_prompt": "Craft a lavish digital illustration of a butterfly perched on a sunflower using a current aesthetic style. The butterfly is in focus with ample detail, while the depth of field is managed effectively via a subject isolation technique, delicately blurring the background. The image has normal contrast, exhibiting a balance between light and dark tones; yet, the ambient lighting softly illuminates the subject, creating a soothing effect. The color scheme is notably vibrant, utilizing a wide spectrum of bold, rich, and colorful hues that accentuate the beauty of the butterfly and the sunflower.", "created": 1712522257}, "13": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Butterfly on a sunflower.", "revised_prompt": "Create a digital illustration featuring a butterfly resting on a sunflower. The image should apply the principles of vibrant colors for a current aesthetic and use a subject isolation technique for depth of field, creating a focused view of the butterfly and sunflower against a softer, less defined background. The scene is illuminated with ambient lighting, and the contrast is kept at a normal level to preserve the natural colors and tones of the subjects.", "created": 1712522340}, "14": {"prompt": "Specializing as a Cartoonist, use a illustration composition type, with anime-styled imagery style, use a vibrant color scheme. use a retro aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Butterfly on a sunflower (illustration from 1800s).", "revised_prompt": "Please create a meticulously illustrated image in a vibrant color scheme, adopting an anime-inspired aesthetic with a touch of retro flair. The image should be set with ambient lighting and normal contrast to bring depth and focus to the main subject. The subject is an 1800s-style illustration of a butterfly delicately perched on a sunflower, a technique used to isolate the subject to clearly highlight its presence against the background. Please keep in mind the artistic style and techniques used in the late 1800s to maintain historical accuracy.", "created": 1712523062}, "15": {"prompt": "Specializing as a Cartoonist, use a illustration composition type, with comic-styled imagery style, use a neutral color scheme. use a vintage aesthetic style, subject isolation technique is used for the depth of field, while the lighting is dramatic, the image has a normal contrast: Butterfly on sunflower (drawn in early 1700s).", "revised_prompt": "Depict an artistic representation drawn by a Cartoonist that emulates the illustration style and storytelling of early 18th-century comics with comic-styled imagery. The principal subject of this creation is a butterfly resting on a sunflower. The canvas exudes a vintage aesthetic with a neutral color scheme that harmoniously complements the subject isolation technique for creating depth of field. Dramatic lighting permeates throughout the depiction, highlighting the immediate focus on the butterfly and sunflower, rendering a vivid and dynamic atmosphere. The visuals carry a normal contrast level, adding to the authenticity and balance of this historic period expression.", "created": 1712523478}, "16": {"prompt": "Specializing as a Illustrator, use a illustration composition type, with skeuomorphic design imagery style, use a subdued color scheme. use a vintage aesthetic style, subject isolation technique is used for the depth of field, while the lighting is dramatic, the image has a normal contrast: Butterfly on sunflower (sketch from early 1700s).", "revised_prompt": "Craft an image that embodies the principles of illustrator work with a focus on skeuomorphic design. The color scheme should be subdued to encapsulate a vintage aesthetic. Employ a subject isolation technique to create depth of field in the image. The scene should feature dramatic lighting but maintain a normal contrast level. For the focal subject, draw inspiration from an early 1700s sketch of a butterfly perched on a sunflower. The image should evoke a feeling of nostalgia and timelessness, reminiscent of an antique illustration.", "created": 1712523763}, "17": {"prompt": "Specializing as a Photographer, use a photo composition type, with photo-realistic imagery style, use a realistic color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is natural, the image has a high contrast: Butterfly on a sunflower.", "revised_prompt": "As someone who focuses on photography, consider using a photo composition approach with photorealistic imagery and a realistic color scheme. Incorporate contemporary aesthetic styles, with a butterfly isolated in the depth of field as the main subject. It is situated on a sunflower, given emphasis through natural lighting and high contrast in the image.", "created": 1712523957}, "18": {"prompt": "Specializing as a Photographer, use a cinematic composition type, with photo-realistic imagery style, use a realistic color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is natural, the image has a high contrast: Butterfly on a sunflower.", "revised_prompt": "Compose a photorealistic image using a cinematic composition, adopting a contemporary aesthetic style. The subject of the image is a butterfly poised on a sunflower. Use subject isolation to create a depth of field, highlighting the butterfly and the sunflower distinctively amid the surroundings. The image should be illuminated naturally, reflecting the sunlight as it would on a sunny day, creating strong contrast. The color scheme deployed should be realistic, mimicking the vibrant yellows of the sunflower, the diverse color palette of the butterfly, and the background.", "created": 1712524105}, "19": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, motion blur is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Horse galloping across a spacious pasture.", "revised_prompt": "Create a captivating image of a horse galloping across a spacious pasture. The overall composition and imagery style should resemble that typically used in digital art. The scene should be enriched by a vibrant color scheme that brings the visuals to life. To provide a current aesthetic feel, incorporate the use of motion blur to depict the depth of field, accentuating the dynamism of the horse\u2019s movement. Additionally, bathe the scene in ambient lighting to cast soft, diffused shadows and ensure a normal level of contrast. The goal is to create an artistically inspiring depiction that fully captures the energy and beauty of the scene.", "created": 1712524480}, "20": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, motion blur is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Horse running across a spacious pasture.", "revised_prompt": "Use a vibrant and dynamic color palette to create a digital illustration of a horse sprinting across an expansive pasture. Imagine the scene filled with movement, the horse's limbs a blur against the backdrop of the lush green grass, capturing the essence of motion and depth of field. The light source is diffused, emanating a soft glow that creates ambient lighting in the scene. Make sure the image has a standard contrast, balancing lights and darks harmoniously. The composition should be one of vast openness, the horse being the primary focus while the pasture extends in every direction, giving a sense of both immense space and freedom.", "created": 1712524966}, "21": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, hyperfocal distance is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Horse running across a spacious pasture at sunset.", "revised_prompt": "Create an illustration exhibiting Digital Art aesthetics. Recreate a scene where a vibrant-colored horse is thundering across a spacious pasture. The image should capture the magic of the setting sun casting an ambient light and creating a depth of field with its hyperfocal distance. The scene's contrast should be normal, encapsulating the rich hues and shadows to give the image a radiant yet balanced look.", "created": 1712525328}, "22": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Horse running in green pastures with the sunset in the background.", "revised_prompt": "Create a detailed digital illustration highlighting a dynamic composition. The subject is a horse gracefully running through lush green pastures, with its body in full stride. In the background, make sure to depict a picturesque sunset which bathes the pasture in softer hues, contrasting the vibrant colors of the scene. The horse is to be visually isolated to achieve a depth of field effect, underlining the horse as the central character of the composition. The lighting should be ambient with normal contrast, presenting a gentle intersection of the natural light of the sunset and the shadows thrown by the galloping horse.", "created": 1712525989}, "23": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, hyperfocal distance is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Horse running across green pastures with the sunset in the background.", "revised_prompt": "Visualize a digital art illustration of a vibrant and lively scene. Depict a horse galloping energetically across sprawling green pastures. In the backdrop, a magnificent sunset is setting, bathing the scene in warm and radiant hues. The depth of field focuses on the entirety of the scene, with the horse and landscape in crystal clear detail, achieved through the use of hyperfocal distance. The lighting is ambient, uniformly illuminating the scene and showcasing the normal contrast between the various elements of the image.", "created": 1712526218}, "24": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, depth compression is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Eagle catching a fish in a pond with the sunset in the background.", "revised_prompt": "Imagine a vivid and dynamic scene set in digital art where an eagle dives down towards a pond, its talons extended forward, ready to snatch a fish which is just breaching the surface. This incredible scene takes place at sunset, the sky ablaze with hues of orange, pink, and purple, harmoniously contrasting with the cool blues and greens of the water. The depth is compressed, focusing attention on the action between the eagle and the fish, while ambient lighting fills the composition. This scene is not high in contrast but balanced, further accentuating the vibrant color scheme.", "created": 1712526299}, "25": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Cardinal sitting on a fence post.", "revised_prompt": "Construct a digital art composition encompassing a delightful color scheme brimming with vibrancy. The cardinal subject - an awe-inspiring bird with its glorious plumage - is perched nonchalantly on an old, rustic fence post. The subject isolation technique is employed to give depth to the field, isolating the cardinal from the surrounding context adding a mystic charm to the composition. The lighting is designed to be ambient, casting soft, diffused glow on the scene and setting a serene and tranquil ambiance. Contrast is kept at a normal level to maintain a balanced and pleasing visual tone.", "created": 1712526833}, "26": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Cardinal sitting on a fence post at sunrise.", "revised_prompt": "Envision a visually striking digital art illustration. The canvas captures a cardinal perched on a fence post as the sun begins to crest the horizon, emitting a stunning display of vibrant colours. The bird, the primary subject of the piece, is meticulously delineated to stand out against the surrounding environment, demonstrating an effective use of subject isolation technique to enhance depth of field. The ambient lighting complements this effect, casting gentle shadows and highlighting the interplay between light and dark. The image possesses normal contrast, maintaining a balanced and realistic depiction of the scene.", "created": 1712526944}, "27": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knight duelling with dragon.", "revised_prompt": "Imagine an illustration of a knight duelling with a dragon. The composition should favor a digital art imagery style and a vibrant color scheme. The piece should exhibit a modern aesthetic while making use of the subject isolation technique to create depth of field. The lighting within the scene is ambient, with a balance of lights and shadows to maintain normal contrast. The knight, a Middle-Eastern male in his traditional knight's armor, is facing off against a majestic dragon that is preparing to throw fire. All this pulled together should create a vibrant and dynamic feel, highlighting the essence of the duel.", "created": 1712534899}, "28": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knight duelling a dragon.", "revised_prompt": "Create an illustration with a vibrant color scheme and a modern aesthetic style. The image should use a technique of subject isolation for depth of field, set against ambient lighting and normal contrast. The composition type should capture a medieval scenario showcasing a knight \u2013 a South Asian male dressed in full armor \u2013 engaging in a fierce duel with a fierce, mythical dragon. The knight, exhibiting courage and strength, should be placed in the foreground, while the dragon with its fierce expression in the background should indicate a sense of danger.", "created": 1712535188}, "29": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knight battling a serpant.", "revised_prompt": "Create a vibrant and dynamic digital art-style illustration of a knight in the midst of battling a serpent. The knight should be the center of focus, with the depth of field emphasizing their isolation in the scene. The lighting scheme should be ambient, casting dramatic shadows yet maintaining a normal contrast, highlighting the gritty details of the ongoing clash between the knight and the serpent. The knight is depicted as a brave South Asian female, bound in her battle armor, while the serpent is a fearsome creature towering above.", "created": 1712536395}, "30": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knight battling a serpent.", "revised_prompt": "Imagine a visually stimulating digital art illustration of a regal knight, meticulously armored and poised for combat. His distinguished opponent: a formidable serpent, its scales shimmering with vibrant colors. The scene focuses on these two subjects, isolated from the backdrop to add depth to the field. The surrounding environment is painted with a mix of ambient lighting, imparting a majestic yet eerie atmosphere to the battleground. The contrast of light and shadows is well balanced, neither too harsh nor too soft, which allows each intricate detail of the knight's armor and the serpent's scales to stand out.", "created": 1712536618}, "31": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knight battling a serpent.", "revised_prompt": "Depict a conceptual scene of a Caucasian female knight, armored with a polished metal chainmail and a shimmering sword, fearlessly engaging in a battle against an enormous serpent. The serpent coils its scaly body, ready to strike with venomous fangs bared. Illuminate the scene with ambient light, casting soft shadows and highlighting the intensity of the confrontation. Use a vibrant color palette to emphasize the raw energy of the battle. A technique of subject isolation should be employed to bring focus to the knight and the serpent, creating a discernible depth of field. Emphasize this drama in digital art style with normal contrast.", "created": 1712536654}, "32": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knight battling a serpent.", "revised_prompt": "Create a vibrant and colorful digital art impression of a knight engaged in an intense battle with a serpent. The knight, who is of Asian descent and male gender, is at the center of the composition, isolated to create depth of field and better focus on his heroic actions. Meanwhile, the serpent is cunningly dodging the knight's attacks, encircling the knight in a menacing yet captivating way. This scene is set under ambient lighting conditions, casting intriguing shadows and highlights that accentuate the drama of the confrontation. The overall image maintains a normal contrast, preserving the details in both the shadows and the highlights.", "created": 1712536673}, "33": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knight battling a serpent.", "revised_prompt": "Illustrate a scene where a knight is engaged in a battle with a serpent. The knight should be singularly focused, separated from the background to create a sense of depth. The style of the image should be contemporary, vivid and energetic, with the hints of ambient lighting providing normal contrast. Please maintain the charm and aesthetics of digital art throughout the composition. ", "created": 1712536699}, "34": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knight duelling a serpent.", "revised_prompt": "Create a highly vibrant digital art illustration of a knight engaged in a duel with a serpent. Focus is placed mostly on the subjects, isolating them to provide a sense of depth against the backdrop. The environment is filled with ambient light to reveal subtle details with normal contrast levels. The knight is a Middle-Eastern male equipped with shining armor and a strong broadsword while the serpent is gargantuan with menacing green eyes and sleek, scaly body. The background should blur softly into obscure shapes and muted tones, allowing the dueling subjects to command attention.", "created": 1712537395}, "35": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knight shooting serpent.", "revised_prompt": "Create a vibrant, digital art-style illustration where a knight is taking aim at a serpent. While the knight and the serpent are the main subjects, both should be isolated using techniques of depth. The knight is adorned with traditional armor, his eyes focused and hand steady as he prepares to shoot. The serpent, large and threatening, slithers towards the knight. The scene is bathed in ambient lighting, creating an atmosphere that's both tense and spellbinding. The image has normal contrast, balancing light and dark elements harmoniously, and provides a stylistic representation of a classic battle between good and evil.", "created": 1712537462}, "36": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knight duelling a dragon.", "revised_prompt": "A composed illustration in vibrant colors depicting a chivalric Knight of Caucasian descent and fiery dragon in combat, elegantly executed in a contemporary digital art style. The Knight is skillfully isolated to enhance depth of field, set against the backdrop of ambient light, maintaining a standard contrast. The scene draws heavy inspiration from medieval folklore fantasies.", "created": 1712538864}, "37": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Knights duelling each other.", "revised_prompt": "Create a vibrant digital rendition of two knights engaged in a duel. The knights should be the focus, isolated in the centre to provide depth of field. The light setting is ambient, creating a soft glow around the scene. The contrast should be normal, striking a balance between lights and darks. One knight is a Caucasian male with a silver armor and the other is a Black female with a golden armor. Both of them wielding swords, their movements visible as they charge towards each other.", "created": 1712539040}, "38": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Two knights duelling.", "revised_prompt": "Use your skills to create an illustration composition type digital art. Apply a vibrant color scheme and adhere to a contemporary aesthetic style. To add depth to the image, use subject isolation technique. The lighting should be ambient and the contrast should be normal. The primary subject of this image should be a duel between two knights, each showcasing sharp agility and deft expertise in their combat. One knight is Black and female, while the other is of Middle-Eastern descent and male, as this can prompt a portrayal of a diverse and inclusive scene.", "created": 1712539561}, "39": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Three knights duelling.", "revised_prompt": "An illustration composition with a vibrant color scheme, rendered in the style of digital art and focused on a current aesthetic style. Three knights form the subject of the image, their forms isolated for depth of field against an ambient lighting backdrop. The combat between the knights is fierce, leaping off the image against a backdrop of normal contrast. The first knight, a Caucasian woman in sleek silver armor, stands in a defensive stance. The second, a Hispanic man with a gruff expression, is seen charging forward, and the last knight, a Black man, charges in from the opposite side, completing the standoff.", "created": 1712539732}, "40": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: The avengers", "revised_prompt": "As a Digital Artist, create an illustration composed of a team of superheroes, not the Avengers, but rather inspired by them. The image should use vibrant colors in a modern aesthetic style. The technique of subject isolation is used to create depth of field, with ambient lighting contributing to a normal contrast. The superheroes involved should be diverse, featuring both male and female superheroes from a variety of descents, such as Caucasian, Black, Hispanic, Middle-Eastern, and South Asian.", "created": 1712540292}, "41": {"prompt": "Specializing as a Digital Artist, use a illustration composition type, with digital art imagery style, use a vibrant color scheme. use a current aesthetic style, subject isolation technique is used for the depth of field, while the lighting is ambient, the image has a normal contrast: Spiderman swinging through the city.", "revised_prompt": "A scene in which a masked superhero, exuding vibrant colors, is dynamically swinging through an intricate urban cityscape. The hero, wearing a blue and red bodysuit, is portrayed in an isolated manner to add depth to the field. Ambient light sparkles off skyscrapers, creating a subtle normal contrast, while the vivid hues give off the characteristic digital art aesthetic. Note that the superhero is not a specific copyrighted character but rather a general concept of a city-guarding vigilante.", "created": 1712540726}}}
+{
+  "specialization": {
+    "1": {
+      "name": "Digital Artist"
+    },
+    "2": {
+      "name": "Illustrator"
+    },
+    "3": {
+      "name": "Animator"
+    },
+    "4": {
+      "name": "Calligrapher"
+    },
+    "5": {
+      "name": "Cartoonist"
+    },
+    "6": {
+      "name": "Graphic Designer"
+    },
+    "7": {
+      "name": "Native Artist"
+    },
+    "8": {
+      "name": "Painter"
+    },
+    "9": {
+      "name": "Photographer"
+    },
+    "10": {
+      "name": "Street Artist"
+    }
+  },
+  "image_composition_type": {
+    "1": {
+      "name": "illustration"
+    },
+    "2": {
+      "name": "avatar"
+    },
+    "3": {
+      "name": "cinematic"
+    },
+    "4": {
+      "name": "diagram"
+    },
+    "5": {
+      "name": "icon"
+    },
+    "6": {
+      "name": "logo"
+    },
+    "7": {
+      "name": "painting"
+    },
+    "8": {
+      "name": "photo"
+    },
+    "9": {
+      "name": "picture"
+    },
+    "10": {
+      "name": "poster"
+    }
+  },
+  "image_style": {
+    "1": {
+      "name": "digital art"
+    },
+    "2": {
+      "name": "aboriginal-styled"
+    },
+    "3": {
+      "name": "abstract"
+    },
+    "4": {
+      "name": "anime-styled"
+    },
+    "5": {
+      "name": "comic-styled"
+    },
+    "6": {
+      "name": "expressionism"
+    },
+    "7": {
+      "name": "flat design"
+    },
+    "8": {
+      "name": "glyph design"
+    },
+    "9": {
+      "name": "masterpiece"
+    },
+    "10": {
+      "name": "muralism"
+    },
+    "11": {
+      "name": "photo-realistic"
+    },
+    "12": {
+      "name": "pointillism"
+    },
+    "13": {
+      "name": "pop art"
+    },
+    "14": {
+      "name": "realism"
+    },
+    "15": {
+      "name": "skeuomorphic design"
+    },
+    "16": {
+      "name": "stencil art"
+    },
+    "17": {
+      "name": "surrealism"
+    },
+    "18": {
+      "name": "35mm film"
+    },
+    "19": {
+      "name": "charcoal"
+    },
+    "20": {
+      "name": "oil painting"
+    }
+  },
+  "image_color_scheme": {
+    "1": {
+      "name": "vibrant"
+    },
+    "2": {
+      "name": "realistic"
+    },
+    "3": {
+      "name": "monochromatic"
+    },
+    "4": {
+      "name": "duotone"
+    },
+    "5": {
+      "name": "neutral"
+    },
+    "6": {
+      "name": "subdued"
+    },
+    "7": {
+      "name": "analogous"
+    },
+    "8": {
+      "name": "complementary"
+    },
+    "9": {
+      "name": "split-complementary"
+    },
+    "10": {
+      "name": "triadic"
+    },
+    "11": {
+      "name": "gradient"
+    },
+    "12": {
+      "name": "warm"
+    },
+    "13": {
+      "name": "cool"
+    },
+    "14": {
+      "name": "pastel"
+    }
+  },
+  "image_aesthetic_pattern": {
+    "1": {
+      "name": "current"
+    },
+    "2": {
+      "name": "anime-inspired"
+    },
+    "3": {
+      "name": "futuristic"
+    },
+    "4": {
+      "name": "geometric"
+    },
+    "5": {
+      "name": "grunge"
+    },
+    "6": {
+      "name": "minimalist"
+    },
+    "7": {
+      "name": "modern"
+    },
+    "8": {
+      "name": "retro"
+    },
+    "9": {
+      "name": "vintage"
+    }
+  },
+  "image_depth_of_field": {
+    "1": {
+      "name": "subject isolation technique"
+    },
+    "2": {
+      "name": "hyperfocal distance"
+    },
+    "3": {
+      "name": "depth compression"
+    },
+    "4": {
+      "name": "macro focus"
+    },
+    "5": {
+      "name": "background blur"
+    },
+    "6": {
+      "name": "foreground blur"
+    },
+    "7": {
+      "name": "motion blur"
+    }
+  },
+  "image_lighting": {
+    "1": {
+      "name": "ambient"
+    },
+    "2": {
+      "name": "natural"
+    },
+    "3": {
+      "name": "subtle"
+    },
+    "4": {
+      "name": "dramatic"
+    }
+  },
+  "image_contrast": {
+    "1": {
+      "name": "normal"
+    },
+    "2": {
+      "name": "high"
+    },
+    "3": {
+      "name": "low"
+    }
+  },
+  "event_log": {
+    "18": {
+      "prompt": "Specializing as a Digital Artist.  Create a illustration, with a digital art imagery style, and a vibrant color scheme.  Use a current aesthetic style.  Depth of field is to be subject isolation technique.  Lighting is ambient.  The image is to have normal contrast.  Subject: Young lady Apsara, dancing under the moonlight.",
+      "revised_prompt": "Please create a digital illustration featuring a vibrant color scheme. Use a modern aesthetic style with a depth of field technique to isolate the subject; the lighting should be ambient, creating a normal contrast between the subject and the background. The subject of this illustration is a young South Asian lady performing an Apsara dance under the soft glow of moonlight, her graceful movements captured in vivid hues.",
+      "created": 1712679601
+    }
+  }
+}

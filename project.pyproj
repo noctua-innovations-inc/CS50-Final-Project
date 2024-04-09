@@ -11,7 +11,7 @@
     <OutputPath>.</OutputPath>
     <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
     <LaunchProvider>Standard Python launcher</LaunchProvider>
-    <InterpreterId>Global|PythonCore|3.11</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|vs-2022-3.10</InterpreterId>
     <TestFramework>Pytest</TestFramework>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
@@ -20,18 +20,12 @@
     <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="Examples\1711935452.jpg" />
-    <Content Include="Examples\1711935584.jpg" />
-    <Content Include="Examples\1711935730.jpg" />
-    <Content Include="Examples\1711935878.jpg" />
-    <Content Include="Examples\1711936035.jpg" />
-    <Content Include="Examples\1711936191.jpg" />
-    <Content Include="Examples\1711936479.jpg" />
-    <Content Include="Examples\1711936831.jpg" />
+    <Content Include="db.json" />
     <Content Include="LICENSE.txt" />
+    <Content Include="README.md" />
     <Content Include="requirements.txt" />
     <Content Include="web\image.html" />
-    <Content Include="web\index.html" />
+    <Content Include="web\home.html" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="httpclient.py" />
@@ -42,14 +36,11 @@
     <Compile Include="test_project.py" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Examples" />
     <Folder Include="web\" />
-    <Folder Include="web\css\" />
-    <Folder Include="web\js\" />
     <Folder Include="web\img\" />
-    <Folder Include="web\lib\" />
   </ItemGroup>
   <ItemGroup>
+    <InterpreterReference Include="CondaEnv|CondaEnv|vs-2022-3.10" />
     <InterpreterReference Include="Global|PythonCore|3.11" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />

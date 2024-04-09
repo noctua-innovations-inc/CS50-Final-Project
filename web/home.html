@@ -16,7 +16,8 @@
         eel.expose(image_generation_error_notification);
         function image_generation_error_notification(error_message) {
             $("#error_msg_id").text(error_message);
-            $("#alert_btn_id").click();
+            var error_message_popup = new bootstrap.Modal($('#error_display_id'));
+            error_message_popup.show();
         }
 
         function enable_submit_button() {
@@ -155,7 +156,6 @@
                 </div>
             </div>
         </div>
-        <button id="alert_btn_id" type="button" data-bs-toggle="modal" data-bs-target="#error_display_id" style="display:none"></button>
 
     </div>
 

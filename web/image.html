@@ -16,9 +16,15 @@
         eel.expose(image_generation_error_notification);
         function image_generation_error_notification(error_message) {
             $("#error_msg_id").text(error_message);
-            $("#alert_btn_id").click();
+            var error_message_popup = new bootstrap.Modal($('#error_display_id'));
+            error_message_popup.show();
         }
 
+        eel.expose(set_image_prompts);
+        function set_image_prompts(original_prompt, revised_prompt) {
+            $('#prompt_id').html(original_prompt);
+            $('#revised_prompt_id').html(revised_prompt);
+        }
     </script>
     <script type="text/javascript">
         $(function () {
@@ -40,7 +46,9 @@
                 </form>
             </nav>
         </div>
-        <img id="image" class="img-fluid" alt="Generated Image" />
+        <div id="prompt_id" class="alert alert-primary" role="alert" style="line-height:1.2em;height:9.6em;margin:2px 0"></div>
+        <img id="image_id" class="img-fluid" alt="Generated Image" />
+        <div id="revised_prompt_id" class="alert alert-info" role="alert" style="line-height:1.2em;height:14.4em;margin:2px 0"></div>
     </div>
 
     <div class="modal fade" id="error_display_id" aria-hidden="true" aria-labelledby="error_display_title_id" tabindex="-1">
@@ -56,24 +64,27 @@
             </div>
         </div>
     </div>
-    <button id="alert_btn_id" type="button" data-bs-toggle="modal" data-bs-target="#error_display_id" style="display:none"></button>
 
     <script type="text/javascript">
         $(function () {
 
             const urlParams = new URLSearchParams(window.location.search);
+            const image_parameter = urlParams.get('image');
 
-            const image = $('#image')[0];
-            height = (Number(urlParams.get('height')) / 2)
-            width = (Number(urlParams.get('width')) / 2)
+            eel.request_image_prompts_handler(image_parameter);
+
+            const image = $('#image_id')[0];
+            var height = (Number(urlParams.get('height')) / 2)
+            var width = (Number(urlParams.get('width')) / 2)
 
             if (window.outerWidth) {
                 width = width + window.outerWidth - window.innerWidth + 4;
                 height = height + window.outerHeight - window.innerHeight + 4;
             }
-            window.resizeTo(width, height + $('#navbar_id').height());
+            height = $('#navbar_id').height() + $('#prompt_id').outerHeight() + height + $('#revised_prompt_id').outerHeight();
 
-            const image_parameter = urlParams.get('image');
+            window.resizeTo(width, height);
+
             image.src = "/img/" + image_parameter + ".jpg" + "?t=" + new Date().getTime();
 
         })

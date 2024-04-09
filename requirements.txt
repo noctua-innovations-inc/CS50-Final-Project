@@ -1,6 +1,6 @@
 pytest
 requests
-inquirer
+types-requests
 Pillow
 mock
 tinydb
